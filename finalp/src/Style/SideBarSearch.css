@@ -1,0 +1,144 @@
+*{
+  box-sizing: border-box;
+}
+
+.sb-search-container {
+  background-color: white;
+  height: auto;
+  position: relative;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.7);
+}
+
+.sb-search-content-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.sb-search-header {
+  width: 100%;
+  background-color: #dcceff;
+  border-radius: 3px;
+}
+
+.sb-search-title {
+  padding-left: 5px;
+  color: #4d2e9b;
+  text-align: left;
+  font-family: 'siliticin';
+  font-size: 20px;
+  padding-bottom: 2px;
+}
+
+.sb-search-area {
+  width: 80%;
+  height: 35px;
+  padding-left: 5px;
+  border-radius: 3px;
+  background-color: #f0eaff;
+}
+
+.sb-search-pair {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.sb-search-executor {
+  background-color: #4d2e9b;
+  width: 17%;
+  height: 35px;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.sb-search-button {
+  font-size: 17px;
+  font-family: 'siliticin';
+  text-align: center;
+  color: white;
+  line-height: 35px;
+  border-radius: 3px;
+}
+
+.sb-search-button:hover {
+  background-color: #a582ff;
+  color: #4d2e9b;
+}
+
+#sb-search-custom-toggler {
+  font-size: 15px;
+  position: absolute;
+  background-color: #4d2e9b;
+  color: white;
+  margin-left: 350px;
+  margin-top: 7px;
+  height: 24px;
+  padding-top: 5px;
+  border-radius: 3px;
+  width: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sb-search-custom-toggler:hover {
+  background-color: #f0eaff;
+  color: #4d2e9b;
+}
+
+.sb-loading-animation {
+  border: 3px solid #cbb7ff;
+  border-radius: 50%;
+  border-top: 3px solid #4d2e9b;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 0.5s linear infinite;
+  animation: spin 0.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.sb-search-info {
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 10px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.sb-search-status {
+  color: #4d2e9b;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.sb-search-result {
+  color: #4d2e9b;
+  font-size: 14px;
+  width: 85%;
+}
+
+.sb-search-reset {
+  padding-top: 2px;
+  color: #4d2e9b;
+  cursor: pointer;
+}
+
+.sb-search-reset:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+  #sb-search-custom-toggler {margin-left: 310px;}
+}

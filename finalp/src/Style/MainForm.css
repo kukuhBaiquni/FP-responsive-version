@@ -1,0 +1,599 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+
+textarea {
+  resize: vertical;
+  overflow: hidden;
+}
+
+.resep-form-main {
+  height: auto;
+  cursor: context-menu;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  width: 100%;
+}
+
+.row-1-title {
+  width: 100%;
+  padding-top: 20px;
+  display: block;
+}
+
+.main-title {
+  padding-left: 5px;
+  width: 100%;
+  background-color: #7864ad;
+  border-radius: 3px;
+}
+
+.title-input {
+  height: 35px;
+  color: #4d2e9b;
+  width: 70%;
+  border-radius: 3px;
+  padding-left: 5px;
+  display: block;
+}
+
+.main-kategori {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.kategori-title {
+  padding-left: 5px;
+  background-color: #7864ad;
+  border-radius: 3px;
+}
+
+.kategori-select {
+  cursor: pointer;
+  position: relative;
+  color: #4d2e9b;
+  padding-right: 5px;
+  width: 70%;
+  border-radius: 3px;
+  height: 35px;
+  background-color: white;
+}
+
+.row-2-thumbnail {
+  width: 100%;
+  padding-top: 30px;
+  display: block;
+}
+
+.main-thumbnail {
+  width: 100%;
+  padding-left: 5px;
+  background-color: #7864ad;
+  border-radius: 3px;
+}
+
+.drop-area{
+  background-color: white;
+  height: 100px;
+  width: 165px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.thumbnail-preview {
+  height: 100px;
+  width: 100%;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.drop-instruction {
+  font-size: 14px;
+  color: #4d2e9b;
+  text-align: center;
+  line-height: 100px;
+}
+
+.drop-note {
+  font-size: 14px;
+  width: 100%;
+}
+
+.row-3-bahan {
+  width: 100%;
+  padding-top: 30px;
+  display: block;
+}
+
+.main-bahan {
+  padding-left: 5px;
+  background-color: #7864ad;
+  border-radius: 3px;
+}
+
+.bahan-input {
+  height: 35px;
+  color: #4d2e9b;
+  width: 70%;
+  font-size: 14px;
+  border-radius: 3px;
+  display: block;
+  padding-left: 5px;
+}
+
+.fake-button {
+  width: 20%;
+  textAlign: center;
+  display: none;
+  font-size: 13px;
+  color: #4d2e9b;
+  line-height: 35px;
+  background-color: white;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+.bahan-instruction {
+  width: 100%;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.submited-bahan {
+  display: block;
+  width: 100%;
+}
+
+.submited-bahan-title {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  width: 58%;
+}
+
+.input-edit {
+  padding-bottom: 5px;
+  display: block;
+  border-radius: 3px;
+  width: 70%;
+  color: #4d2e9b;
+  height: 30px;
+  font-size: 14px;
+  padding-left: 5px;
+  background-color: #d1d1d1;
+}
+
+.ignored-space {
+  display: block;
+  width: 25%;
+}
+
+.submited-list {
+  cursor: pointer;
+  display: block;
+  width: 70%;
+  height: 30px;
+  line-height: 30px;
+  background-color: white;
+  color: #4d2e9b;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.space-between {
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+.eliminator-main {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.eliminator-holder {
+  padding-left: 5px;
+  border-radius: 3px;
+  background-color: #7864ad;
+  height: 40px;
+  padding-top: 8px;
+}
+
+.eliminator-title {
+  width: 25%;
+  float: left;
+  line-height: 24px;
+  padding-bottom: 20px
+}
+
+.eliminator-holder-formobile {
+  display: none;
+  padding-left: 5px;
+  border-radius: 3px;
+  background-color: #7864ad;
+  height: 50px;
+  padding-top: 6px;
+}
+
+.eliminator-fake-button {
+  padding-left: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.eliminator-fake-button:hover {
+  color: red;
+}
+
+.bahan-eliminator {
+  cursor: pointer;
+  width: 7%;
+  color: #4d2e9b;
+  border-radius: 3px;
+  height: 25px;
+  float: left;
+  font-size: 16px;
+}
+
+.bahan-eliminator-formobile {
+  display: none;
+  line-height: 30px;
+  width: 10%;
+  text-align: center;
+  height: 25px;
+  font-size: 16px;
+  color: #4d2e9b;
+  border-radius: 3px;
+}
+
+.target-data {
+  width: 90%;
+  display: block;
+  font-size: 14px;
+}
+
+.row-4-step {
+  width: 100%;
+  padding-top: 60px;
+  display: block;
+}
+
+.step-title {
+  padding-left: 5px;
+  width: 100%;
+  background-color: #7864ad;
+  border-radius: 3px;
+}
+
+.step-input {
+  color: #4d2e9b;
+  width: 70%;
+  height: 100px;
+  border-radius: 3px;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+.submit-step {
+  border: 1px solid white;
+  width: 15%;
+  text-align: center;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-step:hover {
+  background-color: white;
+  color: #4d2e9b;
+}
+
+.submited-step {
+  padding-top: 30px;
+}
+
+.submited-step-list {
+  width: 70%;
+}
+
+.step-content {
+  cursor: pointer;
+  padding-left: 5px;
+  background-color: white;
+  color: #4d2e9b;
+  width: 100%;
+  height: 60px;
+  border-radius: 3px;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+
+.step-indicator-count {
+  background-color: #7864ad;
+  padding-left: 5px;
+  width: 25%;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+.step-editing-button {
+  float: right;
+  width: 29.3%;
+  line-height: 46px;
+  height: 46px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.step-editing-button:hover {
+  background-color: white;
+  color: #4d2e9b;
+}
+
+.final-button {
+  padding-bottom: 20px;
+}
+
+.delete-step {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.delete-step-title {
+  width: 25%;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.delete-step-holder {
+  padding-left: 5px;
+  border-radius: 3px;
+  background-color: #7864ad;
+  height: 40px;
+  padding-top: 8px;
+}
+
+.delete-step-exe {
+  float: left;
+  cursor: pointer;
+  padding-left: 10px;
+  font-size: 22px;
+  color: white;
+  width: 6%;
+}
+
+.delete-step-exe:hover {
+  color: red;
+}
+
+.delete-step-options {
+  cursor: pointer;
+  width: 7%;
+  color: #4d2e9b;
+  border-radius: 3px;
+  height: 25px;
+  float: left;
+  font-size: 16px;
+}
+
+.final-title {
+  text-align: center;
+  background-color: white;
+  color: #4d2e9b;
+  height: 50px;
+  font-size: 23px;
+  line-height: 50px;
+  border-radius: 3px;
+}
+
+.final-title:hover {
+  background-color: #7864ad;
+  color: white;
+  cursor: pointer;
+}
+
+.step-drop-header {
+  padding-top: 20px;
+}
+
+.step-drop-header-title {
+  border-radius: 3px;
+  background-color: #7864ad;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.step-drop-area {
+  width: 30%;
+  padding-bottom: 20px;
+  height: 100px;
+}
+
+.add-gallery {
+  border: 1px solid white;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  height: 100px;
+  line-height: 105px;
+  font-size: 60px;
+  cursor: pointer;
+  min-width: 10%;
+}
+
+.add-gallery:hover {
+  background-color: white;
+  color: #4d2e9b;
+  opacity: 0.8;
+}
+
+
+.step-drop-section {
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.gallery-holder {
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.step-image-preview {
+  position: relative;
+  height: 100px;
+  float: left;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid #a0a0a0;
+}
+
+.step-image-preview:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.rf-kesan-form {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.rf-kesan-title {
+  background-color: #7864ad;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.rf-kesan-input {
+  padding: 5px;
+  font-size: 14px;
+  width: 70%;
+  height: 100px;
+  border-radius: 3px;
+  background-color: white;
+  color: #4d2e9b;
+}
+
+.rf-textarea-emoji {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.rf-dropdown {
+  background-color: #614e91;
+  color: white;
+  height: 30px;
+  width: 55px;
+  line-height: 30px;
+  border-radius: 3px;
+  border: 1px solid #adadad;
+  cursor: pointer;
+  position: relative;
+}
+
+.rf-divider {
+  width: 5px;
+}
+
+.custom-dropdown-rf {
+  background-color: #4d2e9b;
+  position: absolute;
+  width: 190px;
+  border-radius: 3px;
+  padding: 9px 5px;
+  text-align: left;
+  z-index: 1;
+  height: auto;
+  top: 140%;
+  left: -75px;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.7)
+}
+
+
+.custom-dropdown-rf::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #4d2e9b transparent;
+}
+
+.custom-dropdown-rf-wrapper {
+  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-flow: wrap;
+  line-height: 30px;
+}
+
+.custom-dropdown-rf-content {
+  cursor: pointer;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+}
+
+.custom-dropdown-rf-content:hover {
+  background-color: #6e57a5;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px){
+  .custom-dropdown-rf {left: -100px;}
+  .custom-dropdown-rf::after {left: 60%}
+}
+
+@media screen and (max-width: 600px){
+  .title-input {width: 100%; height: 35px;}
+  .bahan-input {width: 100%; height: 35px;}
+  .main-header {font-size: 20px; height: 40px;}
+  .thumbnail-preview {height: 250px;}
+  .drop-area {height: 100px;}
+  .drop-note {font-size: 12px;}
+  .drop-instruction {line-height: 100px;}
+  .bahan-instruction {display: none;}
+  .bahan-eliminator {width: 40px;}
+  .fake-button {display: block;}
+  .input-edit {height: 35px; width: 85%;}
+  .eliminator-holder-formobile {display: block;}
+  .eliminator-fake-button .tooltiptext {width: 80px; left: 23%;}
+  .eliminator-fake-button .tooltiptext::after {top: 17%;}
+  .eliminator-title {width: 35%;}
+  .kategori-select {height: 35px; width: 100%;}
+  .kategori-spacer {display: none;}
+  .submited-bahan-title {padding-top: 25px; }
+  .submit-step {width: 20%;height: 30px;line-height: 30px;font-size: 13px;}
+  .step-content {font-size: 17px;}
+  .submited-step-list {width: 100%;}
+  .step-input {width: 70%; font-size: 17px;}
+  .step-indicator-count {font-size: 14px;}
+  .step-editing-button {height: 54px;}
+  .delete-step-options {width: 40px;}
+  .delete-step-holder {padding-top: 8px;}
+  .delete-step-title {width: 35%;padding-top: 2px;}
+  .step-drop-header-title {font-size: 14px; text-align: center;}
+}

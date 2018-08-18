@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+.sbs-container {
+  background-color: white;
+  padding: 5px;
+  height: auto;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.7);
+}
+
+.sbs-container.minimize{
+  height: 70px;
+  overflow: hidden;
+}
+
+.sbs-content-holder {
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.sbs-nested {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.sbs-user-img-holder {
+  height: 55px;
+  width: 55px;
+}
+
+.sbs-user-img {
+  border-radius: 50%;
+  object-fit: scale-down;
+  height: 55px;
+  width: 55px;
+}
+
+.sbs-newt {
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.sbs-status {
+  padding-left: 10px;
+  margin-top: -7px;
+  color: #3bd820;
+}
+
+.sbs-corner-top {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.sbs-minimize-window {
+  background-color: #dcceff;
+  color: #4d2e9b;
+  border-radius: 50%;
+  padding-left: 2px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 285px;
+  margin-top: 13px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.sbs-minimize-window:hover {
+  background-color: #f0eaff;
+}
+
+.sbs-user-name {
+  padding-left: 10px;
+  color: #4d2e9b;
+  font-size: 20px;
+  width: auto;
+  font-family: 'siliticin';
+  height: 25px;
+  padding-top: 5px;
+}
+
+.sbs-user-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sbs-message-holder {
+  background-color: #dcceff;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.sbs-message {
+  padding-left: 5px;
+  color: #4d2e9b;
+  font-family: 'siliticin';
+  font-size: 19px;
+  padding-bottom: 2px;
+}
+
+.sbs-message-timestamp {
+  width: 100%;
+  height: auto;
+}
+
+.sbs-message-content {
+  padding-left: 5px;
+  font-size: 13px;
+  color: #727272;
+}
+
+.sbs-info-message {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.sbs-timestamp {
+  padding-left: 5px;
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.sbs-timestamp-update {
+  padding-left: 5px;
+  color: #4d2e9b;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.sbs-timestamp-update:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+  .sbs-minimize-window {margin-left: 250px; width: 30px; height: 30px;padding-top: 5px;display: block;line-height: 22px;}
+}

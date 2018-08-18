@@ -1,0 +1,171 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.myresep-container {
+  background-color: white;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.myresep-header {
+  height: auto;
+  width: 100%;
+  padding: 5px;
+}
+
+.header-content {
+  border-radius: 3px;
+  background-color: #4d2e9b;
+  height: 50px;
+  width: 100%;
+  display: inline-flex;
+  padding-top: 10px;
+}
+
+.title-header {
+  font-size: 23px;
+  font-family: 'siliticin';
+  color: white;
+  padding-left: 15px;
+  width: 67%;
+}
+
+.header-content-title {
+  font-size: 20px;
+  padding-top: 2px;
+  font-family: 'siliticin';
+  padding-right: 20px;
+  padding-left: 10px;
+  color: white;
+  border-left: 1px solid white;
+}
+
+.sort-by {
+  border-radius: 3px;
+  color: #4d2e9b;
+  font-family: 'siliticin';
+  height: 30px;
+  font-size: 16px;
+  width: 130px;
+}
+
+.myresep-holder {
+  height: auto;
+  width: auto;
+  padding: 5px;
+}
+
+.myresep-box {
+  height: auto;
+  width: 240px;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+}
+
+.resep-picture-holder {
+  width: 240px;
+  height: 200px;
+}
+
+.resep-picture {
+  width: 240px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.myresep-data {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.mr-spacer {
+  height: 50px;
+  padding: 5px;
+}
+
+.mr-to-detail {
+  background-color: #4d2e9b;
+  cursor: pointer;
+  height: 100%;
+  border-radius: 3px;
+  padding-top: 5px;
+}
+
+.mr-to-detail:hover {
+  background-color: #bda3ff;
+}
+
+.mr-detail-title {
+  color: white;
+  text-align: center;
+  font-family: 'siliticin';
+  font-size: 19px;
+}
+
+.myresep-name {
+  width: 240px;
+  height: auto;
+}
+
+.myresep-name-title {
+  font-size: 17px;
+  color: #4d2e9b;
+  font-family: 'siliticin';
+  line-height: 20px;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.mr-created {
+  line-height: 1px;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.mr-kategori {
+  line-height: 1px;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.mr-box-1 {
+  line-height: 1px;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  display: inline-flex;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.mr-interaction-list {
+  width: 18%;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 600px){
+  .myresep-holder {width: 100%;}
+  .header-content-title {font-size: 17px; padding-right: 10px;}
+  .title-header {font-size: 17px;padding-top: 4px; width: 35%;}
+  .myresep-box {width: 100%;}
+  .resep-picture-holder {width: 100%;}
+  .resep-picture {width: 100%;}
+  .myresep-name {width: 100%;}
+  .myresep-kategori {width: 100%;}
+  .myresep-created {text-align: right;}
+  .sort-by {font-size: 14px;}
+}
